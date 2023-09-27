@@ -4,7 +4,7 @@ import { Task } from "./entities/Task"
 
 export const AppDataSource = new DataSource({
     type: 'postgres',
-    host: '', // Your host
+    host: 'ep-namels-tree-91732974.us-east-2.aws.neon.tech', // Your host
     port: , // Default PostgreSQL port
     username: '', // Usuario || process.env.PORT
     password: '', // Contraseña
